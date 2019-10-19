@@ -1,0 +1,8 @@
+/courser-service/target/
+/euraka-server/target/
+/hao-api/target/
+/hao-bean/target/
+/user-service/target/
+/.idea/
+/.gitee/
+/*.class/

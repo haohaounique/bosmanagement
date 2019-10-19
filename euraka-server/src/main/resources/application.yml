@@ -1,0 +1,9 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false #单机版建议设置为false，设置false的目的是防止自己注册自己，集群版采用默认的true
+    fetch-registry: false  #单机版建议设置为false，设置false的目的是防止自己发现自己，集群版采用默认的true
+spring:
+  application:
+    name: eureka-server    # 应用名
