@@ -35,5 +35,8 @@ public class ThreadTest {
         thread2.start();
         thread3.start();
         thread4.start();
+
+        ThreadGroup test = new ThreadGroup("test");
+//        test.setDaemon(true);
     }
 }
